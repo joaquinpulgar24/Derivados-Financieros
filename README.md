@@ -1,6 +1,6 @@
-# Valorización de Derivados Financieros 🧮💹
+# Valorización de Derivados Financieros y Algorithmic Trading 🧮💹
 
-Este repositorio contiene contenido enfocado en la **valorización y análisis de derivados financieros**.
+Este repositorio contiene contenido enfocado en la **valorización y análisis de derivados financieros** al igual que la implementación de **estrategias de trading**.
 
 ## 📘 Objetivo
 
