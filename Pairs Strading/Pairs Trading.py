@@ -110,7 +110,7 @@ fig.show()
 adf = adfuller(residuals, autolag="AIC")
 print("ADF stat:", adf[0], "| p-value:", adf[1], "\n", 'Critical Values:', adf[4])
 
-Tras haber calculado el spread, realizamos el test de Dicket-Fuller Aumentado (ADF), el cual indica si la serie es estacionaria o no. La hipótesis nula indica que la serie tiene una raíz unitaria, es decir, no es estacionaria. La hipótesis alternativa indica que la serie es estacionaria. El p-valor obtenido del test es de 0.45, por lo tanto, la serie no es estacionaria. Procedemos a obtener la serie z-score con una regresión lineal dinámica.
+#Tras haber calculado el spread, realizamos el test de Dicket-Fuller Aumentado (ADF), el cual indica si la serie es estacionaria o no. La hipótesis nula indica que la serie tiene una raíz unitaria, es decir, no es estacionaria. La hipótesis alternativa indica que la serie es estacionaria. El p-valor obtenido del test es de 0.45, por lo tanto, la serie no es estacionaria. Procedemos a obtener la serie z-score con una regresión lineal dinámica.
 # In[9]:
 
 
@@ -322,5 +322,5 @@ plt.show()
 # In[ ]:
 
 
-jupyter nbconvert Pairs Trading.ipynb --to python
+#jupyter nbconvert Pairs Trading.ipynb --to python
 
